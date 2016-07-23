@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>:target</title>
+	<style type="text/css">
+		section{
+			width: 500px;
+			height: 140px;
+			margin: 30px auto;
+		}
+		a{
+			text-decoration: none;
+			color: #828282;
+			display: block;
+			text-shadow: -1px -1px 1px rgba(0,0,0,0.8),
+						 -2px -2px 1px rgba(0,0,0,0.3),
+						 -3px -3px 1px rgba(0,0,0,0.3);
+			text-align: center;
+		}
+		div {
+			border: 1px solid #000;
+			height: 100px;
+			width: 500px;
+			margin:30px auto 0 auto;
+			padding: 10px;
+		}
+		div:target
+			{
+			border: 2px solid #D4D4D4;
+			background-color: #e5eecc;
+			}
+	</style>
+</head>
+<body>
+	<section>
+		<a href="#contact">联系我</a>
+		<div id="contact">
+			可通过私信联系我或者给我发邮件
+			simplywenjing@163.com
+		</div>
+		
+	</section>
+	
+
+</body>
+</html>
