@@ -12,7 +12,12 @@
 			height: 80px;
 			background-color: black;
 			/*animation: 2s moveto ease;*/
-			animation: 2s move forwards ;		
+			/*animation: 2s move forwards ;		*/
+			transition: 2s left ease,2s top ease;
+		}
+		#box:hover{
+			left:100px;
+			top: 100px;
 		}
 		@keyframes move{
 			0% {
